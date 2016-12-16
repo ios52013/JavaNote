@@ -7,31 +7,29 @@ package com.successful.chap06.sec01;
  *
  */
 public class FanXing <T> {
-
-	//
-	private int a;
+	
 	//声明变量
-	private T ob;//要在运行的时候才知道是什么类型
+	private T obj;//要在运行的时候才知道是什么类型
 	//生成构造方法
 
 	public FanXing(T ob) {
 		super();
-		this.ob = ob;
+		this.obj = ob;
 	}
 
 	//生成setter  getter方法
 	public T getOb() {
-		return ob;
+		return obj;
 	}
 
 	public void setOb(T ob) {
-		this.ob = ob;
+		this.obj = ob;
 	}
 	
 	/**
 	 * 打印类型
 	 */
 	public void print(){
-		System.out.println("T的实际类型是："+ ob.getClass().getName());
+		System.out.println("T的实际类型是："+ obj.getClass().getName());
 	}
 }
