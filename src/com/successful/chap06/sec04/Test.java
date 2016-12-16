@@ -27,5 +27,10 @@ public class Test {
 		func(3.14);
 		func(1.99f);
 		func(new Object());
+		
+		/**问题***
+		 * 虽然说是至少要是对象类型
+		 * 可是我还不大明白为什么 int float的参数传进去可可以？？？
+		 */
 	}
 }
