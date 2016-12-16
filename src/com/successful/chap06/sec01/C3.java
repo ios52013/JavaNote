@@ -16,15 +16,17 @@ public class C3 {
 	public Object getOb() {
 		return ob;
 	}
-
+	//setter
 	public void setOb(Object ob) {
 		this.ob = ob;
 	}
+	
 	
 	/**
 	 * 打印ob的类型
 	 */
 	public void print(){
+		
 		System.out.println("ob的类型是："+ob.getClass().getName());
 	}
 	

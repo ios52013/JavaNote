@@ -15,6 +15,7 @@ public class C1 {
 		return a;
 	}
 
+	//setter
 	public void setA(Integer a) {
 		this.a = a;
 	}

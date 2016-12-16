@@ -8,6 +8,8 @@ package com.successful.chap06.sec01;
  */
 public class FanXing <T> {
 
+	//
+	private int a;
 	//声明变量
 	private T ob;//要在运行的时候才知道是什么类型
 	//生成构造方法

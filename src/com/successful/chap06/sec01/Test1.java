@@ -6,6 +6,7 @@ package com.successful.chap06.sec01;
  *
  */
 public class Test1 {
+	
 
 	//main主函数
 	public static void main(String[] args) {
