@@ -36,28 +36,39 @@ public class TestCalendar {
 		//星期几 
 		int week = calendar.get(Calendar.DAY_OF_WEEK);
 		String wk;
-		//
+		
+	/*
+	 *  
+     * @see #SUNDAY 星期日
+     * @see #MONDAY
+     * @see #TUESDAY
+     * @see #WEDNESDAY
+     * @see #THURSDAY
+     * @see #FRIDAY
+     * @see #SATURDAY
+     */
+		 
 		switch (week) {
 		case 1:
-			wk = "一";
+			wk = "日";
 			break;
 		case 2:
-			wk = "二";
+			wk = "一";
 			break;
 		case 3:
-			wk = "三";
+			wk = "二";
 			break;
 		case 4:
-			wk = "四";
+			wk = "三";
 			break;
 		case 5:
-			wk = "五";
+			wk = "四";
 			break;
 		case 6:
-			wk = "六";
+			wk = "五";
 			break;
 		case 7:
-			wk = "日";
+			wk = "六";
 			break;
 
 		default:
