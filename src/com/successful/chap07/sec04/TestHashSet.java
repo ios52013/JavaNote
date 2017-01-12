@@ -37,4 +37,9 @@ public class TestHashSet {
 	}
 	
 	
+	
+	/**
+	 * 研究一下LinkedHashSet和 TreeSet
+	 */
+	
 }
