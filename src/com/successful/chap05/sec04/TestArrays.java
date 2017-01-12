@@ -44,7 +44,7 @@ public class TestArrays {
 		 */
 		int number = 7;
 		int index = Arrays.binarySearch(arr, number);
-		System.out.println(number +"在数组中的下标是："+index);
+		System.out.println(number +"在数组中的下标是："+index); 
 		
 		/**
 		 * 将指定内容 填充到数组中

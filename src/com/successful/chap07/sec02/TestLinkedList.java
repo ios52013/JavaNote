@@ -56,7 +56,7 @@ public class TestLinkedList {
 		 printLinkedList(linkedList);  
 		 
 	    //获取 并 移除列表de最后一个元素,如果不存在就返回null
-		 System.out.println("第一个元素："+linkedList.pollLast());
+		 System.out.println("最后一个元素："+linkedList.pollLast());
 		//查看链表中的元素
 		 printLinkedList(linkedList);  
 		 
